@@ -1,0 +1,36 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+$well-known-white: #FEFDE7;
+$well-known-blue: #3167CC;
+$well-known-bluer: #1F3E7D;
+
+$scheme-main: $well-known-bluer;
+$scheme-main-bis: $well-known-blue;
+$scheme-main-ter: #09717A;
+$scheme-invert: $white;
+$scheme-invert-bis: $white-bis;
+$scheme-invert-ter: $white-ter;
+
+$primary-dark: #008672;
+$info-light: lighten($cyan, 10%);
+
+$background: $well-known-bluer;
+
+$modal-background-background-color: $grey;
+
+$code: #F24E6E;
+$pre: $code;
+$code-padding: 0.125em;
+
+$text: $well-known-white;
+$text-strong: darken($well-known-white, 10%);
+
+$link: $green;
+$link-hover: lighten($green, 30%);
+$link-focus: $turquoise;
+$link-active: $orange;
+
+$navbar-background-color: $well-known-blue;
+
+$dropdown-content-offset: 0;
